@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BethanysPieShop.InventoryManagement", "BethanysPieShop.InventoryManagement.csproj", "{3ADDA044-6626-4259-B516-4DB278BD5868}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BethanysPieShop", "BethanysPieShop.csproj", "{3ADDA044-6626-4259-B516-4DB278BD5868}"
+>>>>>>> 73a435e288c38e002ae309c4f8b9f2324a4c0702
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

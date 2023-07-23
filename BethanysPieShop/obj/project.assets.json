@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dev\\dotnet\\pluralsight\\c-sharp-10-object-oriented-programming\\BethanysPieShop\\BethanysPieShop.InventoryManagement.csproj",
-      "projectName": "BethanysPieShop.InventoryManagement",
-      "projectPath": "D:\\dev\\dotnet\\pluralsight\\c-sharp-10-object-oriented-programming\\BethanysPieShop\\BethanysPieShop.InventoryManagement.csproj",
+      "projectUniqueName": "D:\\dev\\dotnet\\pluralsight\\c-sharp-10-object-oriented-programming\\BethanysPieShop\\BethanysPieShop.csproj",
+      "projectName": "BethanysPieShop",
+      "projectPath": "D:\\dev\\dotnet\\pluralsight\\c-sharp-10-object-oriented-programming\\BethanysPieShop\\BethanysPieShop.csproj",
       "packagesPath": "C:\\Users\\diall\\.nuget\\packages\\",
       "outputPath": "D:\\dev\\dotnet\\pluralsight\\c-sharp-10-object-oriented-programming\\BethanysPieShop\\obj\\",
       "projectStyle": "PackageReference",
@@ -70,5 +70,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problème de lecture du fichier cache D:\\dev\\dotnet\\pluralsight\\c-sharp-10-object-oriented-programming\\BethanysPieShop\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
