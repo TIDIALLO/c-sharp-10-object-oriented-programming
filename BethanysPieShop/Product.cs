@@ -20,6 +20,40 @@ namespace BethanysPieShop.InventoryManagement
         private int amountInStock = 0;
         private bool isBelowStockTreshold = false;
 
+        public int Id
+        {
+            get { return id; }
+            set
+            {
+                id = value;
+            }
+        }
+
+        public string Name
+        {
+            get { return name; }
+            set
+            {
+                name = value.Length > 50 ? value[..50] : value;
+            }
+        }
+
+        public string? Description
+        {
+            get { return description; }
+            set
+            {
+                if (value == null)
+                {
+                    description = string.Empty;
+                }
+                else
+                {
+                    description = value.Length > 250 ? value[..250] : value;
+
+                }
+            }
+        }
         public void UseProduct(int items)
         {
             if (items <= amountInStock)
@@ -118,5 +152,7 @@ namespace BethanysPieShop.InventoryManagement
 
             //return DisplayDetailsFull("");
         }
+
+
     }
 }

@@ -1,0 +1,15 @@
+D:\dev\dotnet\pluralsight\c-sharp-10-object-oriented-programming\BethanysPieShop\bin\Debug\net6.0\BethanysPieShop.InventoryManagement.exe
+D:\dev\dotnet\pluralsight\c-sharp-10-object-oriented-programming\BethanysPieShop\bin\Debug\net6.0\BethanysPieShop.InventoryManagement.deps.json
+D:\dev\dotnet\pluralsight\c-sharp-10-object-oriented-programming\BethanysPieShop\bin\Debug\net6.0\BethanysPieShop.InventoryManagement.runtimeconfig.json
+D:\dev\dotnet\pluralsight\c-sharp-10-object-oriented-programming\BethanysPieShop\bin\Debug\net6.0\BethanysPieShop.InventoryManagement.dll
+D:\dev\dotnet\pluralsight\c-sharp-10-object-oriented-programming\BethanysPieShop\bin\Debug\net6.0\BethanysPieShop.InventoryManagement.pdb
+D:\dev\dotnet\pluralsight\c-sharp-10-object-oriented-programming\BethanysPieShop\obj\Debug\net6.0\BethanysPieShop.InventoryManagement.csproj.AssemblyReference.cache
+D:\dev\dotnet\pluralsight\c-sharp-10-object-oriented-programming\BethanysPieShop\obj\Debug\net6.0\BethanysPieShop.InventoryManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\dotnet\pluralsight\c-sharp-10-object-oriented-programming\BethanysPieShop\obj\Debug\net6.0\BethanysPieShop.InventoryManagement.AssemblyInfoInputs.cache
+D:\dev\dotnet\pluralsight\c-sharp-10-object-oriented-programming\BethanysPieShop\obj\Debug\net6.0\BethanysPieShop.InventoryManagement.AssemblyInfo.cs
+D:\dev\dotnet\pluralsight\c-sharp-10-object-oriented-programming\BethanysPieShop\obj\Debug\net6.0\BethanysPieShop.InventoryManagement.csproj.CoreCompileInputs.cache
+D:\dev\dotnet\pluralsight\c-sharp-10-object-oriented-programming\BethanysPieShop\obj\Debug\net6.0\BethanysPieShop.InventoryManagement.dll
+D:\dev\dotnet\pluralsight\c-sharp-10-object-oriented-programming\BethanysPieShop\obj\Debug\net6.0\refint\BethanysPieShop.InventoryManagement.dll
+D:\dev\dotnet\pluralsight\c-sharp-10-object-oriented-programming\BethanysPieShop\obj\Debug\net6.0\BethanysPieShop.InventoryManagement.pdb
+D:\dev\dotnet\pluralsight\c-sharp-10-object-oriented-programming\BethanysPieShop\obj\Debug\net6.0\BethanysPieShop.InventoryManagement.genruntimeconfig.cache
+D:\dev\dotnet\pluralsight\c-sharp-10-object-oriented-programming\BethanysPieShop\obj\Debug\net6.0\ref\BethanysPieShop.InventoryManagement.dll
