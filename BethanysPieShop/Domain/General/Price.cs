@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BethanysPieShop.InventoryManagement
+namespace BethanysPieShop.InventoryManagement.Domain.General
 {
-    public enum UnitType
+    internal class Price
     {
-        PerItem,
-        PerBox,
-        PerKg
     }
 }

@@ -6,16 +6,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace BethanysPieShop.InventoryManagement
+namespace BethanysPieShop.InventoryManagement.ProductManagement
 {
     public class Product
     {
-        private int id ;
+        private int id;
         private string name = string.Empty;
         private string? description;
 
         private int maxItemsInStock = 0;
-    
+
         private UnitType unitType;
         private int amountInStock = 0;
         private bool isBelowStockTreshold = false;
