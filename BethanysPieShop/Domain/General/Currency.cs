@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace BethanysPieShop.InventoryManagement.Domain.General
 {
-    internal class Currency
+    public enum Currency
     {
+        Dollar,
+        Euro,
+        Pound
     }
 }

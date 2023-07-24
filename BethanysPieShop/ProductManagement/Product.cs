@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BethanysPieShop.InventoryManagement.Domain.General;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -8,13 +9,17 @@ using System.Xml.Linq;
 
 namespace BethanysPieShop.InventoryManagement.ProductManagement
 {
-    public class Product
+    public partial class Product
     {
         private int id;
         private string name = string.Empty;
         private string? description;
 
         private int maxItemsInStock = 0;
+        public Price Price { get; set; }
+        public UnitType UnitType { get; set; }
+        public int AmountInStock { get; private set; }
+        public bool IsBelowStockTreshold { get; private set; }
 
         private UnitType unitType;
         private int amountInStock = 0;
@@ -54,6 +59,28 @@ namespace BethanysPieShop.InventoryManagement.ProductManagement
                 }
             }
         }
+        public Product(int id) : this(id, string.Empty)
+        {
+        }
+
+        public Product(int id, string name)
+        {
+            Id = id;
+            Name = name;
+        }
+
+        public Product(int id, string name, string? description, Price price, UnitType unitType, int maxAmountInStock)
+        {
+            Id = id;
+            Name = name;
+            Description = description;
+            Price = price;
+            UnitType = unitType;
+
+            maxItemsInStock = maxAmountInStock;
+
+            UpdateLowStock();
+        }
         public void UseProduct(int items)
         {
             if (items <= amountInStock)
@@ -71,7 +98,7 @@ namespace BethanysPieShop.InventoryManagement.ProductManagement
             }
         }
 
-        private void UpdateLowStock()
+        /*private void UpdateLowStock()
         {
             if (amountInStock < 10)//for now a fixed value
             {
@@ -89,6 +116,7 @@ namespace BethanysPieShop.InventoryManagement.ProductManagement
         {
             return $"Product {id} ({name})";
         }
+        */
 
         public void IncreaseStock()
         {
@@ -134,7 +162,7 @@ namespace BethanysPieShop.InventoryManagement.ProductManagement
 
         public string DisplayDetailsShort()
         {
-            return $"{id}. {name} \n{amountInStock} items in stock";
+            return $"{id}. {name} \n {Price} \n {amountInStock} items in stock";
         }
 
         public string DisplayDetailsFull()
