@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BethanysPieShop.InventoryManagement.ProductManagement
+namespace BethanysPieShop.InventoryManagement.Domain.ProductManagement
 {
     public enum UnitType
     {

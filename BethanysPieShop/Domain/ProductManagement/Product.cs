@@ -7,10 +7,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace BethanysPieShop.InventoryManagement.ProductManagement
+namespace BethanysPieShop.InventoryManagement.Domain.ProductManagement
 {
     public partial class Product
     {
+        public static int StockTreshold = 5;
+
         private int id;
         private string name = string.Empty;
         private string? description;

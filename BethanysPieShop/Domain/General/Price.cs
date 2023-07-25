@@ -8,6 +8,19 @@ namespace BethanysPieShop.InventoryManagement.Domain.General
 {
     public class Price
     {
+        private int v;
+        private Currency euro;
+
+        public Price()
+        {
+        }
+
+        public Price(int v, Currency euro)
+        {
+            this.v = v;
+            this.euro = euro;
+        }
+
         public double ItemPrice { get; set; }
         public Currency Currency { get; set; }
 

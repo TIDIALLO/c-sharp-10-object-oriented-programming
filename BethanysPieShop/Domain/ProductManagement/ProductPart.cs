@@ -1,10 +1,10 @@
 ﻿using System.Xml.Linq;
 
-namespace BethanysPieShop.InventoryManagement.ProductManagement
+namespace BethanysPieShop.InventoryManagement.Domain.ProductManagement
 {
     public partial class Product
     {
-        private void UpdateLowStock()
+        public void UpdateLowStock()
         {
             if (AmountInStock < 10)//for now a fixed value
             {
